@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms practice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 
+    Aufgabenstellung
+Erstelle ein Formular mit je einem Input-Feld für E-Mail und Password (max. 8 Zeichen). Füge einen Submit und Reset Button hinzu.
+Verwende den Input-Type "password" und das Attribut "maxlength", um die Anzahl der für ein Feld zulässigen Zeichen zu begrenzen.
+ -->
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Authentication</legend>
+                <!-- email -->
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="email">
+                <!-- password -->
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="password">
+                <!-- buttons -->
+                <div>
+                    <input type="submit" value="submit">
+                    <input type="submit" value="reset">
+                </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
